@@ -2,6 +2,8 @@
 
 export AIRFLOW_HOME=$PWD
 
+pip install -r requirements.txt
+
 airflow db init
 
 airflow users create \
