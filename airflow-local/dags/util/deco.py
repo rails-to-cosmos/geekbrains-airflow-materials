@@ -17,6 +17,7 @@ def python_operator(**defaults):
 
         def operator_constructor(**kwargs):
             defaults['task_id'] = kwargs.pop('task_id', None) or defaults.get('task_id') or python_callable.__name__
+            defaults['pool'] = kwargs.pop('pool', None) or defaults.get('pool')
 
             try:
                 cmdag = settings.CONTEXT_MANAGER_DAG
