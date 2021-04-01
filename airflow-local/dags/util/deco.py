@@ -7,13 +7,8 @@
 
 import inspect
 from copy import copy
-
 from airflow import settings
-from airflow.models import BaseOperator
 from airflow.operators.python_operator import PythonOperator
-from airflow.utils.decorators import apply_defaults
-from airflow.utils.trigger_rule import TriggerRule
-
 from util.tasks import get_leafs
 
 
