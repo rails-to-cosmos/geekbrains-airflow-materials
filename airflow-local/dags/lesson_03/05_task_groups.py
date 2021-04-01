@@ -1,6 +1,3 @@
-import logging
-import time
-
 from airflow.models import DAG
 from airflow.utils.task_group import TaskGroup
 
