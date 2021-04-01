@@ -1,6 +1,5 @@
 from airflow.models import DAG
 from lesson_03.settings import default_settings
-
 from util.deco import python_operator
 
 
