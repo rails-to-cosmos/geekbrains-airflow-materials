@@ -1,4 +1,4 @@
-# Airflow
+# Airflow в Linux
 
 ## Начало работы
 
@@ -9,6 +9,8 @@
   <pre><code>git clone git@github.com:rails-to-cosmos/geekbrains-airflow-materials.git</code></pre>
 
 3. Зайдите в папку `airflow-local`
+
+  <pre><code>cd airflow-local</code></pre>
 
 4. Инициализируйте виртуальное окружение
 
