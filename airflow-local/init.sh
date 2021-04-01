@@ -21,5 +21,3 @@ airflow connections add "airflow" \
         --conn-host "localhost" \
         --conn-port "5432" \
         --conn-schema "geekbrains_airflow"
-
-airflow scheduler & airflow webserver -p 8080 && fg
