@@ -10,4 +10,4 @@ def decorated_python_operator_definition(**context):
 
 
 with DAG(**default_settings()) as dag:
-    decorated_python_operator_definition
+    decorated_python_operator_definition()
