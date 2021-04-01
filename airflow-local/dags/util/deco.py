@@ -9,7 +9,6 @@ import inspect
 from copy import copy
 from airflow import settings
 from airflow.operators.python_operator import PythonOperator
-from util.tasks import get_leafs
 
 
 def python_operator(**defaults):
