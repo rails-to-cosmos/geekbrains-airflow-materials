@@ -11,6 +11,7 @@ def default_settings():
     settings = {
         'dag_id': pathlib.Path(filename).stem,  # Имя DAG
         'schedule_interval': '@daily',  # Периодичность запуска, например, "00 15 * * *"
+        'catchup': False,
         'default_args': {  # Базовые аргументы для каждого оператора
             'owner': 'airflow',  # Информация о владельце DAG
             'start_date': dt.datetime(2020, 12, 23),  # Время начала выполнения пайплайна
