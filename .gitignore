@@ -7,3 +7,6 @@ airflow.cfg
 logs
 *.cfg
 /.ipynb_checkpoints/
+.dir-locals.el
+.pylintrc
+homework
