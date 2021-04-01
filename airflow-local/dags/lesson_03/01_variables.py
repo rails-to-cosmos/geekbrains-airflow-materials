@@ -1,5 +1,7 @@
 import logging
+
 from airflow.models import DAG, Variable
+
 from util.settings import default_settings
 from util.deco import python_operator
 
