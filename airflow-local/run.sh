@@ -2,4 +2,4 @@
 
 export AIRFLOW_HOME=$PWD
 
-airflow scheduler & airflow webserver -p 8080 && fg
+airflow scheduler & sleep 5 && airflow webserver -p 8080 && fg
