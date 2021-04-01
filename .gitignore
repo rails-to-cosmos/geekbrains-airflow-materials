@@ -6,3 +6,4 @@ airflow.cfg
 *.db
 logs
 *.cfg
+/.ipynb_checkpoints/
