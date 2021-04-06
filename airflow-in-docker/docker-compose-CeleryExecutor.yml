@@ -17,6 +17,19 @@ services:
         # volumes:
         #     - ./pgdata:/var/lib/postgresql/data/pgdata
 
+    servicedb:
+        image: postgres:9.6
+        environment:
+            - POSTGRES_USER=service
+            - POSTGRES_PASSWORD=service
+            - POSTGRES_DB=service
+        logging:
+            options:
+                max-size: 10m
+                max-file: "3"
+        ports:
+          - "54322:5432"
+
     webserver:
         image: puckel/docker-airflow:1.10.9
         restart: always
