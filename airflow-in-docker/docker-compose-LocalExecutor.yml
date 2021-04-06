@@ -10,6 +10,8 @@ services:
             options:
                 max-size: 10m
                 max-file: "3"
+        ports:
+          - "54321:5432"
 
     webserver:
         image: puckel/docker-airflow:1.10.9
@@ -25,7 +27,6 @@ services:
                 max-file: "3"
         volumes:
             - ./dags:/usr/local/airflow/dags
-            # - ./plugins:/usr/local/airflow/plugins
         ports:
             - "8080:8080"
         command: webserver
