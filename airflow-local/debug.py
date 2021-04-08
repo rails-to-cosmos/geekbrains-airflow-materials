@@ -13,6 +13,8 @@ import datetime
 import json
 import subprocess
 
+sys.path.append('lib')
+
 from prompt_toolkit.completion import FuzzyWordCompleter
 from prompt_toolkit.shortcuts import prompt
 

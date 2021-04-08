@@ -21,3 +21,11 @@ airflow connections add "airflow" \
         --conn-host "localhost" \
         --conn-port "5432" \
         --conn-schema "geekbrains_airflow"
+
+airflow connections add "external_database" \
+        --conn-type "postgres" \
+        --conn-login "dmitry_akatov" \
+        --conn-password "hello" \
+        --conn-host "localhost" \
+        --conn-port "5432" \
+        --conn-schema "external_database"
