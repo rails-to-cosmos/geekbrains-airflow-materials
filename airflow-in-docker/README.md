@@ -4,12 +4,12 @@
 Поэтому:
 1. Если у вас Windows 7, нужно ставить Линукс либо на виртуалку (VirtualBox), либо рядом с Windows.
 2. Если у вас Windows 10, то держите инструкцию:
-   1. Установить PowerShell (https://github.com/PowerShell/PowerShell#get-powershell).
+   1. Установить PowerShell (https://github.com/PowerShell/PowerShell#get-powershell)
    2. Установить Docker и перезапустить систему https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe
    3. Запустить PowerShell и выполнить следующие команды:
-      1. git clone https://github.com/rails-to-cosmos/geekbrains-airflow-materials
-      2. cd geekbrains-airflow-materials/airflow-in-docker
-      3. docker-compose -f docker-compose-LocalExecutor.yml up
+      1. `git clone https://github.com/rails-to-cosmos/geekbrains-airflow-materials`
+      2. `cd geekbrains-airflow-materials/airflow-in-docker`
+      3. `docker-compose -f docker-compose-LocalExecutor.yml up`
 
 Через полминуты проверить http://localhost:8080/admin/
 
