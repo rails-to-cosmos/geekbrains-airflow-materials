@@ -10,3 +10,8 @@ logs
 .dir-locals.el
 .pylintrc
 homework
+/airflow-in-docker/old/
+.pyenv*
+/airflow-local/dags/hw_04/
+old
+.ipynb_checkpoints
